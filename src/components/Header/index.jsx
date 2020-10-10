@@ -1,10 +1,22 @@
 import React from 'react'
+import Styled from 'styled-components'
+import Button from '../Button'
+
+const StyledHeader = Styled.section`
+    width: 100%;
+    heigh: 154px;
+    background-color: red;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+`
 
 function Header(){
     return(
-        <h1>
-            Header
-        </h1>
+        <StyledHeader>
+            <img/>
+            <Button>Cadastre-se</Button>
+        </StyledHeader>
     )
 }
 
