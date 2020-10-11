@@ -1,8 +1,8 @@
-import React from 'react'
-import PageDefault from '../../components/PageDefault'
+import React from 'react';
+import PageDefault from '../../components/PageDefault';
 
 // Usei uma div pra tirar eles do efeito di header
-function NotFound(){
+function NotFound() {
     return(
       <PageDefault>
         <h1>Page not found</h1>

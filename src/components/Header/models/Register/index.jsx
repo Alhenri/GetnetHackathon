@@ -1,12 +1,12 @@
 import React from 'react';
 
-import logo from '../../assets/logo.png'
+import logo from '../../../../assets/logo.png';
 import {
     HeaderContainer,
     HeaderTitleContainer,
     Title,
     ContentContainer,
-} from './styles.js';
+} from '../../../HeaderRegister/styles.js';
 
 function Header() {
     return(

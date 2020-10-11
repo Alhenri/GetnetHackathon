@@ -1,15 +1,15 @@
-import React from 'react'
-import PageDefault from '../../components/PageDefault'
-import Logo from './assets/Logo_Poe.png'
-import './index.css'
+import React from 'react';
+import PageDefault from '../../components/PageDefault';
+import Logo from './assets/Logo_Poe.png';
+import './index.css';
 
 
-function PageHome(){
+function PageHome() {
     return(
         <PageDefault>
             <div id="PageHome">
                 <section id="img" >
-                    <img src={Logo}/>
+                    <img src={Logo} alt='logo' />
                 </section>
                 <section id="text">
                     <h1>

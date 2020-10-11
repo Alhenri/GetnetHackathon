@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'fontsource-bahiana'
+// import 'fontsource-bahiana'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import PageHome from './pages/PageHome'
 import NotFound from './pages/NotFound'
