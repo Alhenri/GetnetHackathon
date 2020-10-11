@@ -1,32 +1,35 @@
 div#PageHome{
-    width: auto;
-    align-items: center;
     display: flex;
-    height: auto;
+    flex: 1;
 }
 
 div#PageHome section{
-    height: 79vh;
     display: flex;
     text-align: center;
     align-items: center;
-    width: 50%;
-    border: 4px solid #FF4628;
+    justify-content: center;
+    flex: 1;
+    border: 2px solid #FF4628;
+    border-top: 0px;
     margin: 0px;
-    font-size: larger;
+}
+
+div#textContainer {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100%;
 }
 
 section#img img{
+    display: flex;
+    flex: 1;
+    min-height: 30vh;
     max-height: 70vh;
-    height: auto;
-    margin-left: auto;
-    display: block;
-    margin-right: auto;
+    max-width: 50%;
 }
 
-div#PageHome section#text h1{
+div#PageHome section#text p{
     text-align: justify;
-    margin-left: auto;
-    margin-right: auto;    
-    width: 60%;
+    font-size: 3vw;
 }

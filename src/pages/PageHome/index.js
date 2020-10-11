@@ -12,10 +12,12 @@ function PageHome() {
                     <img src={Logo} alt='logo' />
                 </section>
                 <section id="text">
-                    <h1>
-                        O “pOe aqui” é uma iniciativa que busca auxiliar o empreendedor oe/ou o
-                        prestador de serviços.
-                    </h1>
+                    <div id="textContainer">
+                        <p>
+                            O “poe aqui” é uma iniciativa que busca auxiliar empreendedores e/ou
+                            prestadores de serviços. Se interessou? Vem saber mais clicando em <i>mais informações</i>
+                        </p>
+                    </div>
                 </section>
             </div>
         </PageDefault>

@@ -5,26 +5,51 @@ export const StyledHeader = styled.div`
     background-color: #FF4628;
     padding: 0px 25px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex: 1;
     height: 20vh;
     
     a{
         text-decoration: none;
     }
     
-    h1#sigla{
+    #sigla{
         margin: 0;
-        font-size: 4em;
+        font-size: 8vw;
         font-family: arya;
         color: white;
     }
 
-    h4#significado{
+    #significado{
         margin: 0;
-        font-size: 0.8em;
-        font-family: arya;
+        font-size: 1.7vw;
         color: white;
     }
-    
-`
+`;
+
+export const PageInfoContainer = styled.div`
+    display: flex;
+    flex: 3;
+`;
+
+export const ButtonsContainer = styled.div`
+    display: flex;
+    flex: 1;
+`;
+
+export const ButtonsGroup = styled.nav`
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+`;
+
+export const Initials = styled.h1`
+    color: white;
+`;
+
+export const Description = styled.p`
+    font-family: 'Bahiana', cursive;
+    display: flex;
+    flex: 1;
+    margin-top: auto;
+`;
