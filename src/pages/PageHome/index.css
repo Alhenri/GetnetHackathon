@@ -1,0 +1,17 @@
+div#PageHome{
+    padding: 25px;
+    width: auto;
+    align-items: center;
+    display: flex;
+}
+
+div#PageHome section{
+    margin: 25px;
+    font-size: larger;
+}
+
+section#img img{
+    margin: 25px;
+    max-height: 550px;
+    height: auto;
+}

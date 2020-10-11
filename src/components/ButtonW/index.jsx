@@ -8,14 +8,15 @@ const StyledButton = Styled.a`
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    margin: 0px 5px;
 `
 
-function Button({children, to}){
+function ButtonW({children, to}){
     return(
-        <StyledButton as={Link} to={to}>
+        <StyledButton as={Link} to={to} >
             {children}
         </StyledButton>
     )
 }
 
-export default Button;
+export default ButtonW;

@@ -7,7 +7,7 @@ function PageDefault({ children }){
     return(
         <>
             <Header/>
-            <div>
+            <div id="content">
                 {children}
             </div>
             <Footer/>
