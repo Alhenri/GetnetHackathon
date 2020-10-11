@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import 'fontsource-bahiana'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import PageHome from './pages/PageHome'
+import PageHome from './pages/Register'
 import NotFound from './pages/NotFound'
 
 ReactDOM.render(

@@ -6,7 +6,7 @@ import {
     HeaderTitleContainer,
     Title,
     ContentContainer,
-} from '../../../HeaderRegister/styles.js';
+} from './styles.js';
 
 function Header() {
     return(

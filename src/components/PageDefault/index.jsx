@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header/models/Presentation';
+import Header from '../Header/models/Register';
 import Footer from '../Footer';
 
 import { Container } from './styles';
