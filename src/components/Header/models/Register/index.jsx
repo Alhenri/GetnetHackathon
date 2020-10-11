@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import logo from '../../../../assets/logo.png';
 import {
@@ -10,7 +11,7 @@ import {
 
 function Header() {
     return(
-        <HeaderContainer>
+        <HeaderContainer as={Link} to="/">
             <ContentContainer>
                 <img src={logo} alt='logo' />
                 <HeaderTitleContainer>

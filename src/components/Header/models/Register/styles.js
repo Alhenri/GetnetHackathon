@@ -10,6 +10,7 @@ export const HeaderContainer = styled.div`
     flex: 1;
     justify-content: center;
     border-bottom-left-radius: 150px;
+    text-decoration: none;
 `;
 
 export const ContentContainer = styled.div`

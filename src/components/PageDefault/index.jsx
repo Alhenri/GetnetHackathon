@@ -1,10 +1,17 @@
 import React from 'react';
-import Header from '../Header/models/Register';
+import Presentation from '../Header/models/Presentation';
+import Register from '../Header/models/Register'
 import Footer from '../Footer';
 
 import { Container } from './styles';
+let Header
 
-function PageDefault({ children }){
+function PageDefault({ children, header }){
+    if(header == "Register"){
+        Header = Register
+    }else{
+        Header = Presentation
+    }
     return(
         <>
             <Header/>

@@ -7,7 +7,7 @@ import { setImage } from './images';
 
 function Register () {
     return(
-        <PageDefault>
+        <PageDefault header="Register">
             <Container>
                 <Input name='Nome Completo' icon={setImage('user')} />
                 <Input name='E-Mail' icon={setImage('mail')} />

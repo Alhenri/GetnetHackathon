@@ -1,6 +1,6 @@
 import React from 'react';
 import PageDefault from '../../components/PageDefault';
-import Logo from './assets/Logo_Poe.png';
+import Logo from '../../assets/Logo_Poe.png';
 import './index.css';
 
 
@@ -13,7 +13,7 @@ function PageHome() {
                 </section>
                 <section id="text">
                     <h1>
-                        O “pOe aqui” é uma iniciativa que busca auxiliar o empreendedor oe/ou o
+                        O “pOe aqui” é uma iniciativa que busca auxiliar o empreendedor e/ou o
                         prestador de serviços.
                     </h1>
                 </section>
