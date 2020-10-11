@@ -4,11 +4,12 @@ import Footer from '../Footer';
 
 import { Container } from './styles';
 
+
 function PageDefault({ children }){
     return(
         <>
             <Header/>
-            <Container>
+            <Container id="container">
                 {children}
             </Container>
             <Footer/>

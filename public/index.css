@@ -1,0 +1,16 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background-color: white;
+    font-size: larger;
+    font-family: bahiana;
+    font-style: normal;
+}
+
+div#root{
+    display: flex;
+    flex-direction: column;
+}
