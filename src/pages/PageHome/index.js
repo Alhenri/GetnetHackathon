@@ -1,6 +1,6 @@
 import React from 'react';
 import PageDefault from '../../components/PageDefault';
-import Logo from './assets/Logo_Poe.png';
+import Logo from '../../assets/Logo_Poe.png';
 import './index.css';
 
 
