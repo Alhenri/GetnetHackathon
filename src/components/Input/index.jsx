@@ -5,6 +5,7 @@ import { Input, Container } from './styles';
 function InputComponent ({ name, icon, password }) {
     const [state, setState] = useState();
     const [defaultValue, setDefaultValue] = useState(name);
+
     const clearCamp = () => setDefaultValue(null);
     const fillCamp = () => setDefaultValue(name);
 
