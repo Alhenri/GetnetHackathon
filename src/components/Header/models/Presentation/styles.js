@@ -14,9 +14,8 @@ export const StyledHeader = styled.div`
     
     #sigla{
         margin: 0;
-        font-size: 8vw;
+        font-size: 7vw;
         font-family: arya;
-        color: white;
     }
 
     #significado{

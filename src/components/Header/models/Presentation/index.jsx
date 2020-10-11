@@ -17,7 +17,7 @@ function Header(){
         <StyledHeader>
             <PageInfoContainer>
                 <Link to="/" style={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
-
+            
                     <Initials id="sigla">POE</Initials>
                     <Description id="significado">
                         Planejamento e organização para empreendedores

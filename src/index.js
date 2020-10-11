@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import PageHome from './pages/Register'
+import PageHome from './pages/PageHome'
 import NotFound from './pages/NotFound'
 import Register from './pages/Register'
 
