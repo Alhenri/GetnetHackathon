@@ -14,12 +14,34 @@ div#Ajuda section{
     margin: 0px;
 }
 
-div#Button {
+section#Button {
     display: flex;
     flex-direction: column;
+    min-height: 30vh;
+    max-height: 70vh;
+    max-width: 50%;
+}
+section#Button div#card{
+    display: flex;
+    width: 50%;
+    height: 30vh;
+    padding: 4vh;
     align-items: center;
-    width: 60%;
-    height: 100%;
+    background-color: #8DDE96;
+    border-radius: 50px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+section#Button div#plus{
+    width: 50%;
+    height: 30vh;
+    padding: 4vh;
+    align-items: center;
+    background-color: #F8644C;
+    border-radius: 50px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
 }
 
 section#img img{

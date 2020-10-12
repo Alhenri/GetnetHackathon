@@ -3,25 +3,31 @@ import PageDefault from '../../components/PageDefault';
 import Logo from '../../assets/Logo_Poe.png';
 import Button from '../../components/ButtonR'
 import './index.css';
+import Style from 'styled-components'
+import Card from '../../components/Card'
+import imgWpp from './assets/wpp.png'
 
 
 function Ajuda() {
     return(
-        <PageDefault header type="Perfil" >
+        <PageDefault header type="Perfil" text="Ajuda">
             <div id="Ajuda">
                 <section id="img" >
                     <img src={Logo} alt='logo' />
                 </section>
                 <section id="Button">
-                    <div id="textarea">
-                        <h1>
-                            Nós podemos lhe ajudar nos seguintes canais:
-                        </h1>
-                        <h3>
-                            ou você pode ir em tutoriais
-                        </h3>
+                    <h1>Podemos lhe ajuda nos seguintes canais:</h1>
+                    
+                    <div id="card">
+                       <img src={imgWpp} height="50vh"/>
+                       <div id="textarea" >
+                           <p>Mande uma mensagem para o número: 4002-8922ou</p>
+                           <Button>Clique Aqui</Button>
+                       </div>
                     </div>
-                    <Button>Teste</Button>
+                    <div id="plus">
+                        <p>Mais  canais serão adicionados no futuro</p>
+                    </div>
                 </section>
             </div>
         </PageDefault>
