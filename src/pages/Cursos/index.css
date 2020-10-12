@@ -1,0 +1,12 @@
+div#Cursos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+div#Cursos section#Cursos{
+    margin-top: 10vh;
+    height: 68vh;
+    width: 90%;
+}

@@ -26,7 +26,7 @@ export const ButtonArea = styled.div`
 
 export const PageInfoContainer = styled.div`
     display: flex;
-    flex: 2;
+    flex: 1;
 `;
 
 export const ButtonsContainer = styled.div`
@@ -45,9 +45,16 @@ export const Initials = styled.h1`
     color: white;
 `;
 
-export const Description = styled.p`
+export const Description = styled.div`
     font-family: 'Bahiana', cursive;
     display: flex;
     flex: 1;
-    margin-top: auto;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    
+    h1{
+        margin: auto;
+    }
+
 `;

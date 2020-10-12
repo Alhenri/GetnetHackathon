@@ -37,7 +37,16 @@ function buttonGroup(type){
     }
 }
 
-function Header({type}){
+function description(text, img){
+    return (
+        <Description>
+            <h1>{text}</h1>
+            <img src={img} />
+        </Description>
+    )
+}
+
+function Header({type, text, img}){
     return(
         <StyledHeader>
             <PageInfoContainer>
@@ -45,7 +54,7 @@ function Header({type}){
                     <Initials id="sigla">Click Pago</Initials>
                 </Link>
             </PageInfoContainer>
-
+            {description(text, img)}
             <ButtonsContainer>
                 {buttonGroup(type)}
             </ButtonsContainer>

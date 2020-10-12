@@ -9,6 +9,8 @@ import RegisterFisica from './pages/RegisterFisica';
 import RegisterJuridica from './pages/RegisterJuridica'
 import Login from './pages/Login';
 import PerfilJuridica from './pages/PerfilJuridica'
+import Cursos from './pages/Cursos';
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,6 +21,7 @@ ReactDOM.render(
       <Route path='/RegisterJuridica' component={ RegisterJuridica } exact />
       <Route path='/PerfilJuridica' component={ PerfilJuridica } exact />
       <Route path='/Login' component={ Login } exact />
+      <Route path='/Cursos' component={ Cursos } exact />
       <Route component={ NotFound } />
     </Switch>
   </BrowserRouter>,

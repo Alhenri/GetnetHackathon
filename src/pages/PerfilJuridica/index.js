@@ -17,7 +17,7 @@ function PerfilJuridica() {
                     <img src={Logo} alt='logo' />
                 </section>
                 <section id="Button">
-                    <ButtonArea><Button>Cursos</Button></ButtonArea>
+                    <ButtonArea><Button to="/Cursos">Cursos</Button></ButtonArea>
                     <ButtonArea><Button>Tutoriais</Button></ButtonArea>
                     <ButtonArea><Button>Ajuda</Button></ButtonArea>
                     <ButtonArea><Button>Quero crédito</Button></ButtonArea>
