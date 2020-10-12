@@ -1,58 +1,22 @@
 import React from 'react';
 import PageDefault from '../../components/PageDefault';
+import Button from '../../components/ButtonR'
+import {Container, ButtonArea} from './styles.js'
 
-import logo from '../../assets/logo.png';
-import person from '../../assets/person.png';
-import Input from '../../components/Input/index';
-import { Link } from 'react-router-dom'
 
-import {
-    Container ,
-    EmptySpace,
-    MainContent,
-    FigureContainer,
-    ImageContainer,
-    InputsContainer,
-    InfoContainer,
-    ButtonContainer,
-    Logo,
-    Title,
-    Description,
-    Button,
-    Person,
-} from './styles';
-
-function Register () {
+function Login() {
     return(
-        <PageDefault>
+        <PageDefault header headerModel="Register" text="Login">
             <Container>
-                <EmptySpace />
-
-                <MainContent>
-                    <ImageContainer>
-                        <Logo src={logo} alt="logo" />
-                    </ImageContainer>
-
-                    <InfoContainer>
-                        <Title>Click Pago</Title>
-                    </InfoContainer>
-    
-                    <InputsContainer>                    
-                        <Input name='Nome / E-mail' />
-                        <Input name='senha' />
-                    </InputsContainer>
-
-                    <ButtonContainer>
-                        <Button as={Link} to="/PerfilJuridica">Login</Button>
-                    </ButtonContainer>
-                </MainContent>
-
-                <FigureContainer>
-                    <Person src={person} alt="person" />
-                </FigureContainer>
+                <ButtonArea>
+                    <Button to="/LoginJuridica" >Empreendedor</Button>
+                </ButtonArea>
+                <ButtonArea>
+                    <Button to="/LoginFisica" >Investidor</Button>
+                </ButtonArea>
             </Container>
         </PageDefault>
     )
 }
 
-export default Register;
+export default Login;
