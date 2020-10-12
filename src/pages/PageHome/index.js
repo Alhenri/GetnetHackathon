@@ -6,7 +6,7 @@ import './index.css';
 
 function PageHome() {
     return(
-        <PageDefault>
+        <PageDefault header>
             <div id="PageHome">
                 <section id="img" >
                     <img src={Logo} alt='logo' />

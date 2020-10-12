@@ -29,7 +29,7 @@ function Header(){
             <ButtonsContainer>
                 <ButtonsGroup>
                     <ButtonR greater>Mais informações</ButtonR>
-                    <ButtonR>Login</ButtonR>
+                    <ButtonR to="/Login">Login</ButtonR>
                     <ButtonW to="/Register">Cadastre-se</ButtonW>
                 </ButtonsGroup>
             </ButtonsContainer>

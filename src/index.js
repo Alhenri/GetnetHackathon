@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import PageHome from './pages/PageHome'
-import NotFound from './pages/NotFound'
-import Register from './pages/Register'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import PageHome from './pages/PageHome';
+import NotFound from './pages/NotFound';
+import Register from './pages/Register';
+import Login from './pages/Login';
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path='/' component={ PageHome } exact />
       <Route path='/Register' component={ Register } exact />
+      <Route path='/Login' component={ Login } exact />
       <Route component={ NotFound } />
     </Switch>
   </BrowserRouter>,

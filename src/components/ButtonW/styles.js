@@ -12,8 +12,8 @@ export const StyledButton = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 2;
-    max-height: 20px;
+    flex: 3;
+    height: 2vh;
 `;
 
 export const TextContent = styled.p`
