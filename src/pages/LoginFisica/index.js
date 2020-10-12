@@ -40,7 +40,7 @@ function Register () {
     
                     <InputsContainer>                    
                         <Input id="teste" name='Nome / E-mail' />
-                        <Input name='senha' />
+                        <Input name='senha' password />
                     </InputsContainer>
 
                     <ButtonContainer>

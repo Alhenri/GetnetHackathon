@@ -11,7 +11,7 @@ export const ButtonArea = styled.div`
 
 function PerfilJuridica() {
     return(
-        <PageDefault header type="Perfil" text="Bem vido!">
+        <PageDefault header type="Perfil" text="Bem vindo!">
             <div id="PerfilJuridica">
                 <section id="img" >
                     <img src={Logo} alt='logo' />
