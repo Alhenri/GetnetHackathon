@@ -6,7 +6,7 @@ import {Container, ButtonArea} from './styles.js'
 
 function Register() {
     return(
-        <PageDefault header headerModel="Register">
+        <PageDefault header headerModel="Register" text="Registro">
             <Container>
                 <ButtonArea>
                     <Button to="/RegisterJuridica" >Empreendedor</Button>

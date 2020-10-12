@@ -12,6 +12,7 @@ import PerfilJuridica from './pages/PerfilJuridica'
 import Cursos from './pages/PageCursos';
 import Tutoriais from './pages/Tutoriais';
 import Ajuda from './pages/Ajuda';
+import QueroCredito from './pages/QueroCredito'
 
 
 ReactDOM.render(
@@ -26,6 +27,7 @@ ReactDOM.render(
       <Route path='/Cursos' component={ Cursos } exact />
       <Route path='/Tutoriais' component={ Tutoriais } exact />
       <Route path='/Ajuda' component={ Ajuda } exact />
+      <Route path='/QueroCredito' component={ QueroCredito } exact />
       <Route component={ NotFound } />
     </Switch>
   </BrowserRouter>,

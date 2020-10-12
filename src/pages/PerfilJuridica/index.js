@@ -11,7 +11,7 @@ export const ButtonArea = styled.div`
 
 function PerfilJuridica() {
     return(
-        <PageDefault header type="Perfil" >
+        <PageDefault header type="Perfil" text="Bem vido!">
             <div id="PerfilJuridica">
                 <section id="img" >
                     <img src={Logo} alt='logo' />
@@ -20,7 +20,7 @@ function PerfilJuridica() {
                     <ButtonArea><Button to="/Cursos">Cursos</Button></ButtonArea>
                     <ButtonArea><Button to="/Tutoriais">Tutoriais</Button></ButtonArea>
                     <ButtonArea><Button to="/Ajuda">Ajuda</Button></ButtonArea>
-                    <ButtonArea><Button>Quero crédito</Button></ButtonArea>
+                    <ButtonArea><Button to="/QueroCredito" >Quero crédito</Button></ButtonArea>
                 </section>
             </div>
         </PageDefault>

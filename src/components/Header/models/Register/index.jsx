@@ -9,13 +9,13 @@ import {
     ContentContainer,
 } from './styles.js';
 
-function Header() {
+function Header({text}) {
     return(
         <HeaderContainer as={Link} to="/">
             <ContentContainer>
                 <img src={logo} alt='logo' />
                 <HeaderTitleContainer>
-                    <Title>Registro</Title>
+                    <Title> {text} </Title>
                 </HeaderTitleContainer>
             </ContentContainer>
         </HeaderContainer>

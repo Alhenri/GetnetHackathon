@@ -8,7 +8,7 @@ import Button from '../../components/ButtonR'
 
 function Register () {
     return(
-        <PageDefault header headerModel="Register">
+        <PageDefault header headerModel="Register" text="Registro Empreendedor" >
             <Container>
                 <Input name='Nome da Empresa' icon={setImage('user')} />
                 <Input name='E-Mail' icon={setImage('mail')} />

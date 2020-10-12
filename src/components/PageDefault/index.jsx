@@ -18,7 +18,6 @@ function PageDefault({ children, headerModel, header, type, text, img }){
             <Container id="container">
                 {children}
             </Container>
-            <Footer/>
         </>
     )
 }
