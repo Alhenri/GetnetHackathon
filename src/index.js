@@ -9,7 +9,7 @@ import RegisterFisica from './pages/RegisterFisica';
 import RegisterJuridica from './pages/RegisterJuridica'
 import Login from './pages/Login';
 import PerfilJuridica from './pages/PerfilJuridica'
-import Cursos from './pages/Cursos';
+import Cursos from './pages/PageCursos';
 import Tutoriais from './pages/Tutoriais';
 import Ajuda from './pages/Ajuda';
 
