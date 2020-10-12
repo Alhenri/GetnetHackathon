@@ -46,6 +46,9 @@ export const TextContent = styled.p`
     font-size: 2.2vw;
     text-align: center;
     color: white;
+    p {
+        margin: 2px;
+    }
 `;
 
 export const DescImage = styled.img`

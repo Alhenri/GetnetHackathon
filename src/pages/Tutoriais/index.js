@@ -32,6 +32,7 @@ function Tutoriais() {
                         <Card
                         img={platTutorial}
                         descImg={logo}
+                        textButton="Saiba Mais"
                         >
                             Como utilizar nossa plataforma
                         </Card>
@@ -39,6 +40,7 @@ function Tutoriais() {
                         <Card
                         img={instaTutorial}
                         descImg={insta}
+                        textButton="Saiba Mais"
                         >
                             Como criar uma loja no INSTAGRAM
                         </Card>
@@ -48,11 +50,15 @@ function Tutoriais() {
                         <Card
                         img={whatsTutotial}
                         descImg={wpp}
+                        textButton="Saiba Mais"
                         >
                             Como criar uma loja no whatsapp
                         </Card>
 
-                        <Card img={memeTutorial}>
+                        <Card 
+                        img={memeTutorial}
+                        textButton="Saiba Mais"
+                        >
                             Como acessar os cursos do sebrae
                         </Card>
                     </AdjacentInfos>

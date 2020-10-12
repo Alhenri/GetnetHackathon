@@ -13,7 +13,7 @@ import {
     PlusButton,
 } from './styles';
 
-function Card({ children, img, descImg }){
+function Card({ children, img, descImg, textButton }){
     return(
         <StyledCard>
             <ImageContainer>
@@ -34,7 +34,7 @@ function Card({ children, img, descImg }){
                 
                 <InfoButtonContainer>
                     <PlusButton>
-                        <TextContent primary>Saiba Mais</TextContent>
+                        <TextContent primary>{textButton}</TextContent>
                     </PlusButton>
                 </InfoButtonContainer>
             </InfoContainer>
