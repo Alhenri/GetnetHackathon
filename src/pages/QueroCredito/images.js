@@ -1,23 +1,23 @@
 import React from 'react';
 
-import user from '../../assets/user.png';
-import phone from '../../assets/phone.png';
-import key from '../../assets/key.png';
-import mail from '../../assets/mail.png';
-import id from '../../assets/id.png';
+import dinheiro from '../../assets/gain.png';
+import calendar from '../../assets/calendar.png';
+import mala from '../../assets/mala.png';
+import carrinho from '../../assets/mail.png';
+import rendimento from '../../assets/ganho.png';
 
 export const setImage = (name) => () => {
     switch (name) {
-        case 'user':
-            return <img src={user} alt={name} />;
-        case 'phone':
-            return <img src={phone} alt={name} />;
-        case 'key':
-            return <img src={key} alt={name} />;
-        case 'mail':
-            return <img src={mail} alt={name} />;
-        case 'id':
-            return <img src={id} alt={name} />;
+        case 'dinheiro':
+            return <img src={dinheiro} alt={name} />;
+        case 'calendar':
+            return <img src={calendar} alt={name} />;
+        case 'mala':
+            return <img src={mala} alt={name} />;
+        case 'carrinho':
+            return <img src={carrinho} alt={name} />;
+        case 'rendimento':
+            return <img src={rendimento} alt={name} />;
         default:
             return null;
     }
