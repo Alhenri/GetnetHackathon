@@ -18,8 +18,8 @@ function PerfilJuridica() {
                 </section>
                 <section id="Button">
                     <ButtonArea><Button to="/Cursos">Cursos</Button></ButtonArea>
-                    <ButtonArea><Button>Tutoriais</Button></ButtonArea>
-                    <ButtonArea><Button>Ajuda</Button></ButtonArea>
+                    <ButtonArea><Button to="/Tutoriais">Tutoriais</Button></ButtonArea>
+                    <ButtonArea><Button to="/Ajuda">Ajuda</Button></ButtonArea>
                     <ButtonArea><Button>Quero crédito</Button></ButtonArea>
                 </section>
             </div>

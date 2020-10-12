@@ -34,10 +34,7 @@ function Register () {
                     </ImageContainer>
 
                     <InfoContainer>
-                        <Title>POE</Title>
-                        <Description>
-                            Planejamento e organização para empreendedores
-                        </Description>
+                        <Title>Click Pago</Title>
                     </InfoContainer>
     
                     <InputsContainer>                    

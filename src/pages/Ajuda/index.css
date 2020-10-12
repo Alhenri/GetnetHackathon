@@ -1,0 +1,36 @@
+div#Ajuda{
+    display: flex;
+    flex: 1;
+}
+
+div#Ajuda section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border: 2px solid #FF4628;
+    border-top: 0px;
+    margin: 0px;
+}
+
+div#Button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+section#img img{
+    display: flex;
+    flex: 1;
+    min-height: 30vh;
+    max-height: 70vh;
+    max-width: 50%;
+}
+
+div#PageHome section#text p{
+    text-align: justify;
+    font-size: 3vw;
+}

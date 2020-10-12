@@ -62,7 +62,7 @@ export const Person = styled.img`
 export const Title = styled.p`
     margin: 0;
     font-size: 6vw;
-    font-family: arya;
+    font-family: bahiana;
     color: ${Theme.colors.primary}
 `;
 

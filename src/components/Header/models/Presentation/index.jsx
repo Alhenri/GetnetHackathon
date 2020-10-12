@@ -28,7 +28,7 @@ function buttonGroup(type){
         return(
             <ButtonsGroup>
                 <ButtonArea>
-                    <ButtonW to="/Register" img={Poligon} >
+                    <ButtonW to="/Live" img={Poligon} >
                         <h3>ao vivo</h3>
                     </ButtonW>
                 </ButtonArea>

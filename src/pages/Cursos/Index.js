@@ -2,7 +2,6 @@ import React from 'react';
 import PageDefault from '../../components/PageDefault';
 import './index.css';
 import Button from '../../components/ButtonR'
-import Card from '../../components/Card'
 import styled from 'styled-components'
 import img01 from './assets/img01.png'
 import img02 from './assets/img02.png'
