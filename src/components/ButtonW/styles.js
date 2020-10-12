@@ -14,9 +14,14 @@ export const StyledButton = styled.a`
     justify-content: center;
     flex: 3;
     height: 2vh;
+
+    img{
+        height: 3vh;
+        margin-right: 1vh;
+    }
 `;
 
 export const TextContent = styled.p`
-    font-size: 1.4vw;
+    font-size: 1.8vw;
     text-align: center;
 `;

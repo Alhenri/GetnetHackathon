@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import { Container } from './styles';
 let Header
 
-function PageDefault({ children, headerModel, header }){
+function PageDefault({ children, headerModel, header, type }){
     if(headerModel === "Register"){
         Header = Register
     }else{
@@ -14,7 +14,7 @@ function PageDefault({ children, headerModel, header }){
     }
     return(
         <>
-            {header ? <Header/> : null}
+            {header ? <Header type={type} /> : null}
             <Container id="container">
                 {children}
             </Container>

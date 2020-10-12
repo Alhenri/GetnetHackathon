@@ -4,6 +4,8 @@ import PageDefault from '../../components/PageDefault';
 import logo from '../../assets/logo.png';
 import person from '../../assets/person.png';
 import Input from '../../components/Input/index';
+import { Link } from 'react-router-dom'
+
 import {
     Container ,
     EmptySpace,
@@ -44,7 +46,7 @@ function Register () {
                     </InputsContainer>
 
                     <ButtonContainer>
-                        <Button>Login</Button>
+                        <Button as={Link} to="/PerfilJuridica">Login</Button>
                     </ButtonContainer>
                 </MainContent>
 

@@ -43,7 +43,7 @@ export const ButtonContainer = styled(ImageContainer)`
 `;
 
 export const Logo = styled.img`
-    display: flex:
+    display: flex;
     flex: 1;
     min-height: 30vh;
     max-height: 70vh;

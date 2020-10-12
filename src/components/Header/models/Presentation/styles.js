@@ -13,21 +13,20 @@ export const StyledHeader = styled.div`
     }
     
     #sigla{
-        margin: 0;
+        margin: auto 0;
         font-size: 7vw;
-        font-family: arya;
+        font-family: Bahiana;
     }
 
-    #significado{
-        margin: 0;
-        font-size: 1.7vw;
-        color: white;
-    }
 `;
+
+export const ButtonArea = styled.div`
+    width: 35vh;
+`
 
 export const PageInfoContainer = styled.div`
     display: flex;
-    flex: 3;
+    flex: 2;
 `;
 
 export const ButtonsContainer = styled.div`
