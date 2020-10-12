@@ -4,18 +4,20 @@ import Theme from '../../theme';
 import { StyledButton } from '../../components/ButtonW/styles';
 
 export const Container = styled.div`
-    min-width: 60%;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    margin-top: 50px;
+    max-width: 95%;
+    margin-top: 20px;
 `;
 
 export const AdjacentInfos = styled.div`
     display: flex;
+    flex: 1;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
 `;
-
-export const PasswordContainer = AdjacentInfos;
 
 export const ButtonContainer = styled.div`
     display: flex;
@@ -24,12 +26,21 @@ export const ButtonContainer = styled.div`
     justify-content: center;
 `;
 
-export const Button = styled(StyledButton)`
-    max-width: 30%;
-    max-height: 50%;
+export const PlusButton = styled(StyledButton)`
     background-color: ${Theme.colors.primary};
+    max-width: 15%;
+    height: 4vh;
 `;
 
-export const ButtonContent = styled.p`
+export const TextContent = styled.p`
     color: white;
+    text-align: center;
+    padding: 15px;
+`;
+
+export const Message = styled.p`
+    color: red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 `;

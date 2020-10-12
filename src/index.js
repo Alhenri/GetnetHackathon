@@ -8,8 +8,6 @@ import Register from './pages/Register'
 import RegisterFisica from './pages/RegisterFisica';
 import RegisterJuridica from './pages/RegisterJuridica';
 import Login from './pages/Login';
-import LoginFisica from './pages/LoginFisica';
-import LoginJuridica from './pages/LoginJuridica';
 import PerfilJuridica from './pages/PerfilJuridica'
 import PerfilFisica from './pages/PerfilFisica'
 import Cursos from './pages/PageCursos';
@@ -28,8 +26,6 @@ ReactDOM.render(
       <Route path='/PerfilJuridica' component={ PerfilJuridica } exact />
       <Route path='/PerfilFisica' component={ PerfilFisica } exact />
       <Route path='/Login' component={ Login } exact />
-      <Route path='/LoginFisica' component={ LoginFisica } exact />
-      <Route path='/LoginJuridica' component={ LoginJuridica } exact />
       <Route path='/Cursos' component={ Cursos } exact />
       <Route path='/Tutoriais' component={ Tutoriais } exact />
       <Route path='/Ajuda' component={ Ajuda } exact />

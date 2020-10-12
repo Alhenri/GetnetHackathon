@@ -14,8 +14,8 @@ function PageHome() {
                 <section id="text">
                     <div id="textContainer">
                         <p>
-                            O “poe aqui” é uma iniciativa que busca auxiliar empreendedores e/ou
-                            prestadores de serviços. Se interessou? Vem saber mais clicando em <i>mais informações</i>
+                            O <b>click pago</b> é uma iniciativa que busca auxiliar empreendedores e/ou
+                            prestadores de serviços. Se interessou? Vem saber mais clicando em <u>mais informações</u>
                         </p>
                     </div>
                 </section>

@@ -1,10 +1,17 @@
 import React from 'react';
 import PageDefault from '../../components/PageDefault';
+import { Link } from 'react-router-dom';
 
 import Input from '../../components/Input/index';
-import { Container , PasswordContainer, AdjacentInfos } from './styles';
-import { setImage } from './images';
-import Button from '../../components/ButtonR'
+import { setImage } from '../../utils/handleImages';
+import {
+    Container,
+    PasswordContainer,
+    AdjacentInfos,
+    ButtonContainer,
+    Button,
+    ButtonContent,
+} from './styles';
 
 function Register () {
     return(
@@ -20,7 +27,12 @@ function Register () {
                     <Input name='Telefone' icon={setImage('phone')} />
                     <Input name='CPF' icon={setImage('id')} />
                 </AdjacentInfos>
-                <Button to="/Login" >Registrar</Button>
+                
+                <ButtonContainer>
+                    <Button as={Link} to="/Login">
+                        <ButtonContent>Registrar</ButtonContent>
+                    </Button>
+                </ButtonContainer>
             </Container>
         </PageDefault>
     )

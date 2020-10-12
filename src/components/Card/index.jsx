@@ -1,15 +1,43 @@
 import React from 'react'
+
 import {
     StyledCard,
-} from './styles.js'
+    TextContent,
+    ImageContainer,
+    InfoContainer,
+    InfoButtonContainer,
+    InfoImageContainer,
+    TextContainer,
+    CardImg,
+    DescImage,
+    PlusButton,
+} from './styles';
 
-function Card({children, img}){
+function Card({ children, img, descImg }){
     return(
         <StyledCard>
-            <img src={img} />
-            <p>
-                {children}
-            </p>
+            <ImageContainer>
+                {img ? <CardImg src={img} alt="card" /> : null}
+            </ImageContainer>
+
+            <InfoContainer>
+
+                {descImg ? (
+                    <InfoImageContainer>
+                        <DescImage src={descImg} alt='descImg' />
+                    </InfoImageContainer>
+                ) : null}
+
+                <TextContainer>
+                    <TextContent>{children}</TextContent>
+                </TextContainer>
+                
+                <InfoButtonContainer>
+                    <PlusButton>
+                        <TextContent primary>Saiba Mais</TextContent>
+                    </PlusButton>
+                </InfoButtonContainer>
+            </InfoContainer>
         </StyledCard>
     )
 }
