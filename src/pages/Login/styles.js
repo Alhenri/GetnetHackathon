@@ -56,7 +56,7 @@ export const Person = styled.img`
     min-height: 10vh;
     max-height: 40vh;
     max-width: 35%;
-    margin-left: auto;
+    margin: 0 auto;
 `;
 
 export const Title = styled.p`

@@ -21,7 +21,7 @@ function Ajuda() {
                     <div id="card">
                        <img src={imgWpp} height="50vh"/>
                        <div id="textarea" >
-                           <p>Mande uma mensagem para o número: 4002-8922ou</p>
+                           <p>Mande uma mensagem para o número: 4002-8922 ou</p>
                            <Button>Clique Aqui</Button>
                        </div>
                     </div>
